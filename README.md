@@ -1,6 +1,7 @@
 # Learn_Reinforcement_Learning
 
-It's the Python code for the course Mathematical Foundation of Reinforcement Learning by Shiyu Zhao. \\
+It's the Python code for the course Mathematical Foundation of Reinforcement Learning by Shiyu Zhao. 
+
 You can find the book and relevant resources from https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning/tree/main
 
 | 算法/模型 (Algorithm/Model) | 目标 (Target) | 具体方法 (Methods) | 更新策略方法 (Update Policy Method) | 使用的迭代方法 (Iteration Methods Used) | State-value/Action-value for current-state | Estimate next-state value | on-policy/off-policy |
