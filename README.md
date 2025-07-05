@@ -15,6 +15,6 @@ You can find the book and relevant resources from https://github.com/MathFoundat
 ---
 **Footnotes:**
 
-[1] 'Estimate state-value' means the state-value in the target function. For RM, it converts sampled **r** to sampled state-value through MC/ or approximate r to action-value through the Bellman Equation.
+[1] 'Estimate state-value' means the state-value in the target function. For RM, it converts sampled **r** to sampled state-value through MC/ or approximates r to action-value through the Bellman Equation.
 
 [2] Can be on-policy, using ε-greedy to update policy.
