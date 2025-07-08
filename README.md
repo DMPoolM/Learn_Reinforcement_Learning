@@ -12,6 +12,7 @@ You can find the book and relevant resources from https://github.com/MathFoundat
 | **Sarsa / Expected Sarsa** | Maximum all state-value | Policy determined, calculate state-value, update policy | ε-greedy | RM | By Bellman Equation | Use the next sampled q(s, a) / E[q(s, a)] | on-policy |
 | **n-step Sarsa** | Maximum all state-value | Policy determined, calculate state-value, update policy | ε-greedy | RM | By Bellman Equation | Use the several following sampled return and the last state-value | on-policy |
 | **Q - learning** | Maximum all state-value | Calculate state-value and update policy | Choose max action-value | RM | By Opyimal Bellman Equation | Use the max q(s, a) in the q-value table in current iteration for next state | off-policy[2] |
+| **Deep Q - learning** | Maximum target function | Gradient descent and update policy | Choose max action-value | Gradient descent | By Opyimal Bellman Equation | Use the max q(s, a) in the q-value table in current iteration for next state | off-policy / on-policy |
 ---
 **Footnotes:**
 
