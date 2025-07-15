@@ -13,10 +13,12 @@ You can find the book and relevant resources from https://github.com/MathFoundat
 | **n-step Sarsa** | Maximum all state-value | Policy determined, calculate state-value, update policy | ε-greedy | RM | By Bellman Equation | Use the several following sampled return and the last state-value | on-policy |
 | **Q - learning** | Maximum all state-value | Calculate state-value and update policy | Choose max action-value | RM | By Opyimal Bellman Equation | Use the max q(s, a) in the q-value table in current iteration for next state | off-policy[2] |
 | **Deep Q - learning** | Maximum target function | Gradient descent and update policy | Choose max action-value | Gradient descent | By Opyimal Bellman Equation | Use the max q(s, a) in the q-value table in current iteration for next state | off-policy / on-policy |
-| **REINFORCE** | Maximum target function | Calculate policy | Update ω through Backpropagation | Gradient ascent | Monte Carlo | Don't need | on-policy |
+| **REINFORCE** | Maximum target function | Calculate policy | Update ω through Backpropagation[3] | Gradient ascent | Monte Carlo | Don't need | on-policy |
 ---
 **Footnotes:**
 
 [1] 'Estimate state-value' means the state-value in the target function. For RM, it converts sampled **r** to sampled state-value through MC or approximates **r** to action-value through the Bellman Equation.
 
 [2] Can be on-policy, using ε-greedy to update policy.
+
+[3] In this context, the policy π is approximated by a neural network whose parameters (weights and biases) are denoted by ω.
